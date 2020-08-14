@@ -58,6 +58,7 @@ var fornames=(sname)=>{
         return false;
     }   
   }
+
   var residents=(presidence)=>{
     var letters =  /^[A-Za-z]+$/;
     if(presidence.value.match(letters) && presidence.value.length< 20 && presidence.value.length >1

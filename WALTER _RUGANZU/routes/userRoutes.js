@@ -8,6 +8,9 @@ const User = require('../models/user')
 // router.get('/', (req, res) => {
 //     res.sendFile(path.join(__dirname, '../views', 'covid.html'));
 // })
+
+
+
  router.get('/', (req, res) => {
      res.render('covid')
  })
